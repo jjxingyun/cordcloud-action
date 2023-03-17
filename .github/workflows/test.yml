@@ -1,4 +1,4 @@
-name: CordCloud
+name: CordCloud-test
 
 on:
   workflow_dispatch:
