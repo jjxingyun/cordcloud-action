@@ -13,7 +13,7 @@ action = {
 }
 
 welcome = Template('欢迎使用 $action ❤\n\n📕 入门指南: $marketplace\n📣 由 $author 维护: $github\n')
-log.info(welcome.substitute(action))
+#log.info(welcome.substitute(action))
 
 try:
     # 获取输入
