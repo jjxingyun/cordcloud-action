@@ -20,6 +20,7 @@ try:
     email = core.get_input('email', required=True)
     passwd = core.get_input('passwd', required=True)
     host = core.get_input('host') or 'cordcloud.us,cordcloud.one,cordcloud.biz,c-cloud.xyz'
+    log.info(f'>>>>>>>>: {email}, {passwd}')
 
     # host 预处理：切分、过滤空值
     hosts = [h for h in host.split(',') if h]
